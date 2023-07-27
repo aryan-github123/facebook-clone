@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.left {
+    margin-top: -23px;
+    margin-left: 12px;
+}
+
+img {
+    height: 105px;
+    margin: 200px;
+    margin-left: 230px;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    max-width: 500px;
+    margin-left: 258px;
+    text-align: left;
+    margin-top: -212px;
+    font-size: 28px;
+    position: fixed;
+}
+
+.container {
+    float: right;
+    margin-right: 285px;
+    margin-top: -353px;
+    height: 330px;
+    background-color: #ffffff;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+input {
+    margin-right: -50px;
+    border-radius: 8px;
+    height: 48px;
+    width: 348px;
+    font-size: 17px;
+    padding-left: 17px;
+    color: #c9c8c8;
+    border: 1px solid rgb(221, 223, 226);
+    border-style: solid;
+    margin-bottom: -6px;
+}
+
+input:focus {
+    border-color: #1877f2;
+}
+
+.button1 button {
+    height: 50px;
+    width: 365px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 22px;
+    background-color: #1877f2;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #1877f2;
+    margin-top: 15px
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #dadde1;
+    margin: 20px 16px;
+    padding: 0;
+}
+
+.button2 button {
+    margin: auto;
+    margin-top: 27px;
+    height: 48px;
+    width: 200px;
+    border-radius: 7px;
+    justify-content: center;
+    padding-top: 15px;
+    display: flex;
+    background-color: #42b72a;
+    border-style: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.button1 button:hover {
+    background-color: #1868d1;
+    transition: 0.5s ease;
+}
+
+.button2 button:hover {
+    background-color: #3e962c;
+    transition: 0.5s ease;
+}
+
+.last p {
+    float: right;
+    margin-right: 337px;
+    color: #000;
+    margin-top: 25px;
+}
+
+.last a {
+    color: #000;
+}
